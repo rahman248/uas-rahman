@@ -44,9 +44,11 @@ Feel free to see and contribute
     * State Edit
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/6.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/7.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/8.png" height="400"/>
-    *  State Print
-        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/10.png" height="400"/>	
+    *  State Delete
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/9.png" height="400"/>	
+		* <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/10.png" height="400"/>	
 
 
 
