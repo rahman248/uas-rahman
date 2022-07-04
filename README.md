@@ -3,6 +3,30 @@
 created with: 
 - MVC pattern 
 
+# Database Command
+
+Create new database using mariadb commad line
+<code>
+
+CREATE DATABASE shop;
+
+CREATE TABLE `produk`  (
+  `id_produk` int(11) NOT NULL AUTO_INCREMENT,
+  `kode_produk` varchar(32) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT '',
+  `nama_produk` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT '',
+  `satuan` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT '',
+  `harga` int(11) NOT NULL,
+  `stock` int(11) NOT NULL,
+  `create_date` datetime NOT NULL,
+  PRIMARY KEY (`id_produk`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+</code>
+
+
+
 
 <b>Note</b>: turn off the window scale, transition scale, and animator duration scale when testing
 
