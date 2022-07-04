@@ -30,6 +30,11 @@ SET FOREIGN_KEY_CHECKS = 1;
 Feel free to see and contribute
 - Database
 <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/0.png" height="400"/>
+
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
 * VIEW
     * Default View
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
