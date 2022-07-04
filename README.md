@@ -34,9 +34,8 @@ Feel free to see and contribute
 
 * VIEW
     * Default View
-        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
-    * State Input
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/01.png" height="400"/>
+    * State Input
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
