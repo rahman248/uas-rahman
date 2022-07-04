@@ -49,8 +49,8 @@ public class MainController {
             Object[] row = new Object[6];
             row[0] = product.getKodeProduk();
             row[1] = product.getNamaProduk();
-            row[2] = product.getHargaProduct();
-            row[3] = product.getStockProduct();
+            row[2] = product.getStockProduct();
+            row[3] = product.getHargaProduct();
             row[4] = product.getSatuanProduct();
             row[5] = product.getCreateProduct();
             model.addRow(row);
