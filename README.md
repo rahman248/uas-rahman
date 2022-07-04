@@ -31,10 +31,11 @@ Feel free to see and contribute
 - Database
 <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/0.png" height="400"/>
 - View
--- Default View
----<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
+ - Default View
+  -<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
+ - State Input
+   -<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
+   -<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
 <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
 <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/11.png" height="400"/>
 
