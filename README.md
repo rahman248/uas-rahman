@@ -8,16 +8,19 @@ created with:
 
 Feel free to see and contribute
 - Database
-<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/Screenshot_Database.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/0.png" height="400"/>
 - View
-<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_2022-07-04_190655.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442429.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/src/assets/image/Screenshot_1655442445.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442452.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/4.png" height="400"/>
 
-<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442458.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442464.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442470.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/6.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/7.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/8.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/9.png" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/10.png" height="400"/>
 
 
 # License
