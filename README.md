@@ -38,12 +38,14 @@ Feel free to see and contribute
     * State Input
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/11.png" height="400"/> 
 * Bullet list item 2
 
 
 
-<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
-<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/11.png" height="400"/>
+
+
 
 
 <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/6.png" height="400"/>
