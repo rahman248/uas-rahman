@@ -45,13 +45,14 @@ Feel free to see and contribute
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/7.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/8.png" height="400"/>
     *  State Delete
-        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/9.png" height="400"/>	
-	* <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/10.png" height="400"/>
-	* <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/11.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/9.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/10.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/11.png" height="400"/>
+
     *  State Reset
-        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/12.png" height="400"/>	
-	* <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/13.png" height="400"/>
-	*  State Re-add	
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/12.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/13.png" height="400"/>
+    *  State Re-add
 	* <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/14.png" height="400"/>
     *  State Print
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/15.png" height="400"/>		
