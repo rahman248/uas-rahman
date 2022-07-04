@@ -67,8 +67,6 @@ public class MainController {
             mProductCode = listProduct.get(i).getKodeProduk();
         }
 
-        System.out.println("DATA " + mProductId);
-
         Product existingProduct = dao.find(mProductId);
         //'2014,6,30 07,30,59'
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy,MM,dd HH,mm,ss");
@@ -101,19 +99,12 @@ public class MainController {
 
     public void update(MainView view) {
 
-        int mProductId = 0;
-        String mProductCode = "";
         ArrayList<Product> listProduct = dao.all();
-        for (int i = 0; i < listProduct.size(); i++) {
-            mProductId = listProduct.get(i).getIdProduk();
-            mProductCode = listProduct.get(i).getKodeProduk();
-        }
-
-        System.out.println("DATA " + mProductId);
-
-        Product existingProduct = dao.find(mProductId);
+        Product existingProduct = dao.find(getProductId(listProduct));
         //'2014,6,30 07,30,59'
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy,MM,dd HH,mm,ss");
+        
+        var selectedId = getProductId(listProduct);
 
         products = new Product();
 
@@ -124,21 +115,19 @@ public class MainController {
         products.setSatuanProduct(view.getSatuan().getSelectedItem().toString());
         products.setCreateProduct(formatter.format(new Date()));
 
-        if (view.getKodeProductField().getText().isEmpty()) {
-
-            JOptionPane.showMessageDialog(view, "Kode Produk Tidak Boleh Kosong");
-            return;
-        } else {
-            products.update();
-        }
-
-        // only reset if creating new user
-        if (mProductId == 0) {
-            this.reset(view);
-        }
-
+        products.updateData(selectedId);
+        if (selectedId == existingProduct.getIdProduk()) this.reset(view);
         this.loadTable(view);
 
+    }
+
+    public int getProductId(ArrayList<Product> listProduct) {
+        int mProductId = 0;
+        for (int i = 0; i < listProduct.size(); i++) {
+            mProductId = listProduct.get(i).getIdProduk();
+
+        }
+        return mProductId;
     }
 
     public void setFormFieldFromClickedTable(MainView view) {
@@ -188,16 +177,16 @@ public class MainController {
         view.getSatuan().setSelectedItem("Pilih Satuan");
         view.getKodeProductField().setEnabled(true);
         view.getKodeProductField().setBackground(new Color(255, 255, 255));
-        
+
         view.getNameProductField().setEnabled(true);
         view.getNameProductField().setBackground(new Color(255, 255, 255));
-        
+
         view.getPriceProductField().setEnabled(true);
         view.getPriceProductField().setBackground(new Color(255, 255, 255));
-        
+
         view.getStockProductField().setEnabled(true);
         view.getStockProductField().setBackground(new Color(255, 255, 255));
-        
+
         view.getSaveButton().setEnabled(true);
         view.getUpdateButton().setEnabled(false);
         view.getDeleteButton().setEnabled(false);
@@ -225,13 +214,16 @@ public class MainController {
         view.getKodeProductField().setBackground(new Color(218, 218, 218));
 
         view.getNameProductField().setEnabled(true);
-        view.getNameProductField().setForeground(new Color(255, 255, 255));
+        view.getNameProductField().setForeground(new Color(0, 0, 0));
+        view.getNameProductField().setBackground(new Color(255, 255, 255));
 
         view.getPriceProductField().setEnabled(true);
-        view.getPriceProductField().setForeground(new Color(255, 255, 255));
+        view.getPriceProductField().setForeground(new Color(0, 0, 0));
+        view.getPriceProductField().setBackground(new Color(255, 255, 255));
 
         view.getStockProductField().setEnabled(true);
-        view.getStockProductField().setForeground(new Color(255, 255, 255));
+        view.getStockProductField().setForeground(new Color(0, 0, 0));
+        view.getStockProductField().setBackground(new Color(255, 255, 255));
 
         view.getSaveButton().setEnabled(false);
         view.getUpdateButton().setEnabled(true);

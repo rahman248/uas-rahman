@@ -41,7 +41,6 @@ public class BaseDao {
 
             ResultSet result = statement.executeQuery("SELECT * FROM " + table);
 
-            System.out.println("DATA " + result);
             while (result.next()) {
                 T model = modelClass.getDeclaredConstructor().newInstance();
 
@@ -63,7 +62,7 @@ public class BaseDao {
 
         try {
             Statement statement = connection.createStatement();
-            ResultSet result = statement.executeQuery("SELECT kode_produk, nama_produk, satuan, harga, stock, create_date FROM " + table + " ORDER BY " + orderBy);
+            ResultSet result = statement.executeQuery("SELECT * FROM " + table + " ORDER BY " + orderBy);
 
             while (result.next()) {
                 T model = modelClass.getDeclaredConstructor().newInstance();
@@ -212,15 +211,16 @@ public class BaseDao {
         return null;
     }
 
-    public void update(Map<String, Object> data, Object where) {
+    public void update(Map<String, Object> data, int id) {
         String query = "UPDATE " + table + " SET ";
-        System.out.println("DATA =" + query);
+        System.out.println("Data " + id);
         String formatedValues = data.entrySet().stream().map((item) -> {
             return item.getKey() + "=" + "'" + item.getValue() + "'";
 
         }).collect(Collectors.joining(", "));
 
-        query += formatedValues + " WHERE " + primaryKey + "=" + where.toString();
+        query += formatedValues + " WHERE " + primaryKey + "=" + String.valueOf(id);
+        System.out.println("Data " + query);
 
         try {
             PreparedStatement statement = connection.prepareStatement(query);

@@ -23,8 +23,8 @@ public class MainView extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         controller = new MainController();
-        controller.disableView(this);
         controller.loadTable(this);
+        controller.disableView(this);
     }
 
     public JButton getSaveButton() {
@@ -53,6 +53,7 @@ public class MainView extends javax.swing.JFrame {
 
     public JTextField getPriceProductField() {
         hargaField.addKeyListener(new KeyAdapter() {
+            @Override
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
                 if (((c < '0') || (c > '9')) && (c != KeyEvent.VK_BACK_SPACE)) {

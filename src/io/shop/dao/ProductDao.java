@@ -21,8 +21,6 @@ public class ProductDao extends BaseDao {
         this.table = "produk";
         this.primaryKey = "id_produk";
     }
-    
-    
 
     public ArrayList<Product> all() {
         return super.all(Product.class);
@@ -40,21 +38,12 @@ public class ProductDao extends BaseDao {
         data.put("satuan", product.getSatuanProduct());
         data.put("harga", product.getHargaProduct());
         data.put("stock", product.getStockProduct());
-        data.put("create_date","\"STR_TO_DATE('" + product.getCreateProduct() + "', '%Y,%m,%d %H,%i,%s')\"");
+        data.put("create_date", "\"STR_TO_DATE('" + product.getCreateProduct() + "', '%Y,%m,%d %H,%i,%s')\"");
 
         super.add(data);
     }
 
-    public void update(Product product) {
-        Map<String, Object> data = new HashMap();
-
-        data.put("nama_produk", product.getNamaProduk());
-        data.put("satuan", product.getSatuanProduct());
-        data.put("harga", product.getHargaProduct());
-        data.put("stock", product.getStockProduct());
-
-        super.update(data, product.getIdProduk());
-    }
+  
 
     public void delete(Product product) {
         super.delete(String.valueOf(product.getIdProduk()));
@@ -63,10 +52,18 @@ public class ProductDao extends BaseDao {
     public ResultSet cetak() {
         return super.print();
     }
-    
-    
-    
-    
-    
+
+    public void update(Product product, int id) {
+        Map<String, Object> data = new HashMap();
+        
+        data.put("nama_produk", product.getNamaProduk());
+        data.put("satuan", product.getSatuanProduct());
+        data.put("harga", product.getHargaProduct());
+        data.put("stock", product.getStockProduct());
+            
+        //id = product.getIdProduk();
+        
+        super.update(data, id);
+    }
 
 }

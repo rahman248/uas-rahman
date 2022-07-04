@@ -10,7 +10,6 @@ import java.sql.SQLException;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
 
-
 /**
  *
  * @author Rahman S
@@ -25,7 +24,6 @@ public class Product implements BaseModel {
     private String hargaProduct;
     private String stockProduct;
     private String createProduct;
-    
 
     public int getIdProduk() {
         return idProduk;
@@ -82,23 +80,16 @@ public class Product implements BaseModel {
     public void setCreateProduct(String createProduct) {
         this.createProduct = createProduct;
     }
-    
-   
 
     @Override
     public void save() {
-        
-        if (this.idProduk == 0) {
-            new ProductDao().add(this);
-        } else {
-            new ProductDao().update(this);
-        }
-        
+        new ProductDao().add(this);
+
     }
 
     @Override
     public void delete() {
-       if (this.idProduk != 0) {
+        if (this.idProduk != 0) {
             new ProductDao().delete(this.idProduk + "");
         }
     }
@@ -115,13 +106,10 @@ public class Product implements BaseModel {
     }
 
     @Override
-    public void update() {
-        new ProductDao().update(this);
+    public void updateData(int id) {
+          this.idProduk = id;
+          new ProductDao().update(this, this.idProduk);
+
     }
-    
-    
-
-
-  
 
 }
