@@ -16,16 +16,16 @@ created with:
 
 Feel free to see and contribute
 - Database
-<img src="https://github.com/rahman248/src/assets/Screenshot_Database.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_Database.png" width="200" height="400"/>
 - View
-<img src="https://github.com/rahman248/src/assets/Screenshot_2022-07-04_190655.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/src/assets/Screenshot_1655442429.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/src/assets/image/Screenshot_1655442445.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/src/assets/Screenshot_1655442452.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_2022-07-04_190655.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442429.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/image/Screenshot_1655442445.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442452.png" width="200" height="400"/>
 
-<img src="https://github.com/rahman248/src/assets/Screenshot_1655442458.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/src/assets/Screenshot_1655442464.png" width="200" height="400"/>
-<img src="https://github.com/rahman248/src/assets/Screenshot_1655442470.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442458.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442464.png" width="200" height="400"/>
+<img src="https://github.com/rahman248/uas-rahman/src/assets/Screenshot_1655442470.png" width="200" height="400"/>
 
 
 # License
