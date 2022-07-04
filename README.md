@@ -28,22 +28,26 @@ SET FOREIGN_KEY_CHECKS = 1;
 <b>Note</b>: turn off the window scale, transition scale, and animator duration scale when testing
 
 Feel free to see and contribute
-- Database
-<img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/0.png" height="400"/>
+* Database
+    * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/0.png" height="400"/>
+
 
 
 * VIEW
     * Default View
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/01.png" height="400"/>
+        
     * State Input
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/4.png" height="400"/>
+        
     * State Edit
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/5.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/7.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/8.png" height="400"/>
+        
     *  State Delete
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/9.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/10.png" height="400"/>
@@ -53,7 +57,8 @@ Feel free to see and contribute
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/12.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/13.png" height="400"/>
     *  State Re-add
-	* <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/14.png" height="400"/>
+        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/14.png" height="400"/>
+
     *  State Print
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/15.png" height="400"/>		
 			
