@@ -39,9 +39,9 @@ Feel free to see and contribute
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/1.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/2.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/3.png" height="400"/>
-        * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/11.png" height="400"/>
-    * State Edit
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/6.png" height="400"/>
+    * State Edit
+        * 
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/9.png" height="400"/>
         * <img src="https://github.com/rahman248/uas-rahman/blob/main/src/assets/8.png" height="400"/>
     *  
