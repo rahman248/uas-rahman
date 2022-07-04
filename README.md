@@ -2,15 +2,7 @@
 
 created with: 
 - MVC pattern 
-- Live Data 
-- Coroutine
-- Retrofit 
-- Dagger Hilt
-- Data Binding
-- Navigation Component
-- Work Manager
-- Material Design 
-- minifyEnabled
+
 
 <b>Note</b>: turn off the window scale, transition scale, and animator duration scale when testing
 
