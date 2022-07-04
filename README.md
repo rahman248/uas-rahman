@@ -6,7 +6,7 @@ created with:
 # Database Command
 
 Create new database using mariadb commad line
-<code>
+```css
 
 CREATE DATABASE shop;
 
@@ -23,10 +23,7 @@ CREATE TABLE `produk`  (
 
 SET FOREIGN_KEY_CHECKS = 1;
 
-</code>
-
-
-
+```
 
 <b>Note</b>: turn off the window scale, transition scale, and animator duration scale when testing
 
